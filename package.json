@@ -19,7 +19,24 @@
 				"command": "vscode-assistant.helloWorld",
 				"title": "Hello World"
 			}
-		]
+		],
+		"viewsContainers": {
+			"activitybar": [
+				{
+					"id": "id-vscode-assistant-activity-bar",
+					"title": "Assitant",
+					"icon": "resources/vscode-assistant.svg"
+				}
+			]
+		},
+		"views": {
+			"id-vscode-assistant-activity-bar": [
+				{
+					"id": "id-email",
+					"name": "Email"
+				}
+			]
+		}
 	},
 	"scripts": {
 		"vscode:prepublish": "npm run package",
